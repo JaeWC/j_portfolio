@@ -70,16 +70,15 @@ export default class Porfolio extends Component {
                     <p>
                       {item.works.map((item, idx) => (
                         <span key={idx}>
-                          {' '}
+                          {' ✓ '}
                           {item} <br />{' '}
                         </span>
                       ))}
                     </p>
                     <span className="categories">
                       <i className="fa fa-tag" />
-                      {item.tags.map(
-                        (tag, index) =>
-                          index === item.tags.length - 1 ? tag : `${tag}, `
+                      {item.tags.map((tag, index) =>
+                        index === item.tags.length - 1 ? tag : `${tag}, `
                       )}
                     </span>
                   </div>

@@ -25,7 +25,7 @@ let resumeData = {
       id: '01',
       name: '_ToPic',
       description1: 'App Store & Google Play',
-      description2: '(2019년 1월 출시 예정)',
+      description2: '(2019년 2월 출시 예정)',
       service: '같은 주제에 대해 유저들이 만들어가는 사진전 SNS',
       front_end: 'React Native, Redux',
       back_end: 'Express, MongoDB, AWS',
@@ -37,15 +37,15 @@ let resumeData = {
         'User Experience 극대화를 위해 React Native Navigation의 Navigation Action 최적화'
       ],
       tags: ['Mobile App', 'Full-Stack'],
-      thumbnail_img: 'images/portfolio/_ToPic/_ToPic.png',
-      detail_img: 'images/portfolio/_ToPic/m-_ToPic.png',
+      thumbnail_img: 'images/portfolio/ToPic/ToPic.png',
+      detail_img: 'images/portfolio/ToPic/m-ToPic.png',
       video: 'https://www.youtube.com/watch?v=qvjwIZ5GX3k'
     },
     {
       id: '02',
       name: 'WeGoing',
-      description1: 'Google Play(2018년 연내 출시 예정)',
-      description2: 'App Store(2019년 1월 출시 예정)',
+      description1: '',
+      description2: '',
       service: '실시간 위치 공유 메신저',
       front_end: 'React Native, Redux, Socket.io',
       back_end: 'Express, MySQL, Redis, Socket.io, AWS',
@@ -76,7 +76,16 @@ let resumeData = {
     'Git',
     'Python'
   ],
-  history: [
+  work: [
+    {
+      companyName: 'Yanolja',
+      specialization: 'Node.js Backend Engineer',
+      from: 'Feb 2019',
+      to: 'Present',
+      Achievements: []
+    }
+  ],
+  project: [
     {
       title: '_ToPic',
       specialization: 'Full-Stack Developer',
